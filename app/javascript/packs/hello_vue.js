@@ -5,6 +5,8 @@
 // like app/views/layouts/application.html.erb.
 // All it does is render <div>Hello Vue</div> at the bottom of the page.
 
+
+// html を操作する場合は、vue ではなくて vue/dist/vue.esm を　import する必要がある。
 import Vue from 'vue/dist/vue.esm'
 
 const app = new Vue({
